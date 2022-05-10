@@ -13,6 +13,36 @@
   }
 }
 
+.start {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: green;
+  margin: 20px;
+}
+.stop {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  margin: 20px;
+
+}
+.reset {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+  margin: 20px;
+
+}
+.start:disabled{
+  background-color:#282c34 ;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
